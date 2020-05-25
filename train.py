@@ -1,6 +1,6 @@
 from keras.optimizers import Adam
 from keras.utils.np_utils import to_categorical
-from keras.layers import Flatten, Dense
+from keras.layers import Flatten, Dense, Conv2D
 from keras.datasets import mnist
 import train1 as t
 
