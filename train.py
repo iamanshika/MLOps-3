@@ -19,7 +19,7 @@ model.compile(optimizer='adam',
 
 model.fit(train_images,
            train_labels,
-           epochs=3,
+           epochs=4,
            validation_data = (test_images, test_labels))
 
 
